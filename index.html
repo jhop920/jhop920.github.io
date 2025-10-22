@@ -39,18 +39,24 @@
   margin: 10px;
   border-radius: 15px;
 
-  .project {
+.project {
   background: white;
-  padding: 20px;
-  margin: 20px;
+  padding: 30px;
+  margin: 40px auto;
   border-radius: 25px; /* rounded corners */
-  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* shadow */
+  box-shadow: 0 0 15px rgba(0,0,0,0.2); /* slightly bigger shadow */
+  width: 80%; /* section takes 80% of page width */
+  max-width: 800px; /* prevents it from getting too big */
+  text-align: center; /* centers text and child elements */
 }
 
 .project img {
-  display: block;
-  margin: 10px auto; /* centers the image */
+  max-width: 100%; /* image fills the section width, scaling down if needed */
+  height: auto;    /* keeps image proportions correct */
+  border-radius: 15px; /* optional: rounded corners on image itself */
+  margin-top: 20px;
 }
+
 
 }
 
