@@ -20,7 +20,7 @@ header h1 {
 /* Section titles */
 h2 {
   font-size: 16px;
-  letter-spacing: 2px; /* PDF-like spaced caps */
+  letter-spacing: 2px; 
   margin-bottom: 10px;
   text-transform: uppercase;
   border-bottom: 1px solid #ccc;
@@ -28,9 +28,17 @@ h2 {
   font-weight: 700;
 }
 
-/* Subheadings (Job titles) */
+
 h3 {
   font-size: 15px;
   font-weight: 700;  
   margin-bottom: 4px;
+}
+
+section {
+  margin-bottom: 25px; 
+}
+
+p, li {
+  font-size: 14px;
 }
