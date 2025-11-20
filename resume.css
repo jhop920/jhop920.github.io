@@ -42,3 +42,8 @@ section {
 p, li {
   font-size: 14px;
 }
+
+strong {
+  font-weight: 700;
+}
+
