@@ -71,3 +71,8 @@ strong {
     width: 100%;
   }
 }
+
+/* ✅ FIX: tighten work experience spacing */
+.right-column section p {
+  margin: 2px 0;
+}
