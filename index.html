@@ -5,7 +5,6 @@
   <title>CSCE 190: Jacob Hopkins</title>
 
   <style>
-    /* PAGE BASE */
     body {
       background: #f4f4f4;
       font-family: Arial, sans-serif;
@@ -13,7 +12,7 @@
       margin: 0;
     }
 
-    /* MAIN TITLE */
+    /* title */
     .main-title {
       text-align: center;
       font-size: 32px;
@@ -22,15 +21,22 @@
       font-weight: bold;
     }
 
-    /* SUBHEADER BELOW TITLE */
     .subheader {
       text-align: center;
       color: #333;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       font-size: 18px;
     }
 
-    /* RESUME LINKS */
+    /* email */
+    .top-email {
+      text-align: center;
+      color: #222;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    /* Resume links */
     .links {
       text-align: center;
       margin-bottom: 30px;
@@ -44,39 +50,14 @@
       font-size: 16px;
     }
 
-    /* SECTION WRAPPERS */
+    /* Section styling */
     section {
-      background: white;
+      background: #e6e6e6;
       border: 1px solid #ccc;
       padding: 15px;
       width: 80%;
       margin: 20px auto;
       border-radius: 6px;
-    }
-
-    /* PROJECT GRID */
-    .project-grid {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-      margin-top: 20px;
-    }
-
-    /* PROJECT CARD */
-    .project-card {
-      background: white;
-      border: 1px solid #ccc;
-      width: 230px;
-      padding: 10px;
-      text-align: center;
-      border-radius: 6px;
-    }
-
-    .project-card img {
-      width: 100%;
-      border: 1px solid #ddd;
-      border-radius: 4px;
     }
 
     h2 {
@@ -89,28 +70,63 @@
       margin-bottom: 10px;
       font-size: 18px;
     }
+
+    /* Project Grid */
+    .project-grid {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    /* Bigger Project Cards */
+    .project-card {
+      background: #e6e6e6;
+      border: 1px solid #ccc;
+      width: 300px; /* increased from 230px */
+      padding: 15px; /* increased padding */
+      text-align: center;
+      border-radius: 6px;
+    }
+
+    /* Bigger Images */
+    .project-card img {
+      width: 100%; /* fills the 300px box */
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    .project-card a {
+      color: #73000A;
+      text-decoration: none;
+      font-weight: bold;
+    }
   </style>
 </head>
 
 <body>
 
-  <!-- TITLE -->
+  <!-- title -->
   <h1 class="main-title">Jacob Hopkins</h1>
   <p class="subheader">Resume + Project Portfolio</p>
 
-  <!-- RESUME LINKS AT TOP -->
+  <!-- Email -->
+  <p class="top-email">Email: jkh8@email.sc.edu</p>
+
+  <!-- Resume links -->
   <div class="links">
     <a href="resume.html" target="_blank">HTML Resume</a>
     <a href="FinalResume.pdf" download>Download Resume PDF</a>
   </div>
 
-  <!-- ABOUT -->
+  <!-- About -->
   <section>
     <h2>About Me</h2>
     <p>I am a freshman at USC majoring in Computer Science.</p>
   </section>
 
-  <!-- SKILLS -->
+  <!-- Skills -->
   <section>
     <h2>Skills</h2>
     <ul>
@@ -121,46 +137,46 @@
     </ul>
   </section>
 
-  <!-- PROJECTS SECTION HEADER -->
+  <!-- Projects header -->
   <section>
     <h2>Projects</h2>
     <p>Below are the assignments and documents for my CSCE 190 course.</p>
   </section>
 
-  <!-- PROJECT GRID -->
+  <!-- PROJECT CARDS -->
   <div class="project-grid">
 
-    <!-- PROBLEM STATEMENT -->
+    <!-- Problem Statement -->
     <div class="project-card">
-      <h3>Problem Statement</h3>
+      <a href="files/ProblemStatement.pdf" target="_blank">
+        <h3>Problem Statement</h3>
+      </a>
       <a href="files/ProblemStatement.pdf" target="_blank">
         <img src="images/ProblemStatement.png" alt="Problem Statement">
       </a>
     </div>
 
-    <!-- Affinity diagram -->
+    <!-- Affinity Diagram -->
     <div class="project-card">
-      <h3>Affinity Diagram</h3>
+      <a href="files/Affinity_DOC.pdf" target="_blank">
+        <h3>Affinity Diagram</h3>
+      </a>
       <a href="files/Affinity_DOC.pdf" target="_blank">
         <img src="images/stickynote.png" alt="Affinity Diagram">
       </a>
     </div>
 
-    <!-- sketches -->
+    <!-- Sketches -->
     <div class="project-card">
-      <h3>Sketches</h3>
       <a href="files/SKETCH.pdf" target="_blank">
-        <img src="images/sketch1.png" alt="Sketches Preview">
+        <h3>Sketches</h3>
+      </a>
+      <a href="files/SKETCH.pdf" target="_blank">
+        <img src="images/sketch1.png" alt="Sketches">
       </a>
     </div>
 
   </div>
-
-  <!-- Contact -->
-  <section>
-    <h2>Contact</h2>
-    <p>Email: jkh8@email.sc.edu</p>
-  </section>
 
 </body>
 </html>
