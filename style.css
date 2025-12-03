@@ -29,23 +29,9 @@ body {
   margin-bottom: 20px;
 }
 
-/* Resume links */
-.links {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.links a {
-  margin: 0 12px;
-  color: #73000A;
-  text-decoration: underline;
-  font-weight: bold;
-  font-size: 16px;
-}
-
 /* Section styling */
 section {
-  background: #cfcfcf; /* darker grey */
+  background: #cfcfcf;
   border: 1px solid #ccc;
   padding: 15px;
   width: 80%;
@@ -73,7 +59,6 @@ h3 {
   margin-top: 20px;
 }
 
-/* Bigger Project Cards */
 .project-card {
   background: #cfcfcf;
   border: 1px solid #ccc;
@@ -83,32 +68,42 @@ h3 {
   border-radius: 6px;
 }
 
-/* Bigger Images */
+/* Images */
 .project-card img {
   width: 100%;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
+/* Project links */
 .project-card a {
   color: #73000A;
   text-decoration: none;
   font-weight: bold;
 }
 
-/* Make repository links black */
-.project-card a {
-  color: black;
-  text-decoration: none;
-}
-
 .project-card a:hover {
   text-decoration: underline;
 }
 
-/* Align repository list to the left */
-.project-card ul {
-  text-align: left;
-  margin-left: 0;
+
+.repo-list {
+  text-align: left !important;
   padding-left: 20px;
+  margin-left: 0;
+}
+
+.repo-list li {
+  text-align: left !important;
+  list-style-type: disc;
+}
+
+.repo-list a {
+  color: #73000A !important;  /* burgundy */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.repo-list a:hover {
+  text-decoration: underline;
 }
