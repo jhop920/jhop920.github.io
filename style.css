@@ -86,6 +86,9 @@ h3 {
   text-decoration: underline;
 }
 
+/* ---------------------------- */
+/* FIX FOR CODE REPOSITORIES TAB */
+/* ---------------------------- */
 
 .repo-list {
   text-align: left !important;
