@@ -37,7 +37,7 @@ section {
 }
 
 h2 {
-  color: white !important;
+  color: #333;
   text-align: center;
 }
 
@@ -54,7 +54,7 @@ h3 {
   flex-wrap: wrap;
   margin-top: 20px;
 }
- 
+
 .project-card {
   background: #b8b8b8;
   border: 1px solid #999;
@@ -76,6 +76,6 @@ h3 {
   font-weight: bold;
 }
 
-.project-card a:hover {
+project-card a:hover {
   text-decoration: underline;
 }
