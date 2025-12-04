@@ -15,14 +15,14 @@ body {
 
 .subheader {
   text-align: center;
-  color: white !important;
+  color: white;
   margin-bottom: 10px;
   font-size: 18px;
 }
 
 .top-email {
   text-align: center;
-  color: white !important;
+  color: white;
   font-size: 16px;
   margin-bottom: 20px;
 }
@@ -36,6 +36,7 @@ section {
   border-radius: 6px;
 }
 
+/* About Me, Skills, Projects headings */
 h2 {
   color: #333;
   text-align: center;
@@ -76,6 +77,6 @@ h3 {
   font-weight: bold;
 }
 
-project-card a:hover {
+.project-card a:hover {
   text-decoration: underline;
 }
