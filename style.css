@@ -1,5 +1,5 @@
 body {
-  background: blue;
+  background: #73000A;
   font-family: Arial, sans-serif;
   padding: 20px;
   margin: 0;
@@ -77,26 +77,5 @@ h3 {
 }
 
 .project-card a:hover {
-  text-decoration: underline;
-}
-
-.repo-list {
-  text-align: left !important;
-  padding-left: 20px;
-  margin-left: 0;
-}
-
-.repo-list li {
-  text-align: left !important;
-  list-style-type: disc;
-}
-
-.repo-list a {
-  color: #73000A !important;  
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.repo-list a:hover {
   text-decoration: underline;
 }
