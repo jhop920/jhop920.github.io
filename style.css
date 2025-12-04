@@ -1,15 +1,14 @@
 body {
-  background: #d9d9d9;   /* darker grey background */
+  background: #73000A;
   font-family: Arial, sans-serif;
   padding: 20px;
   margin: 0;
 }
 
-/* title */
 .main-title {
   text-align: center;
   font-size: 32px;
-  color: #73000A;
+  color: white;
   margin-bottom: 5px;
   font-weight: bold;
 }
@@ -21,7 +20,6 @@ body {
   font-size: 18px;
 }
 
-/* email */
 .top-email {
   text-align: center;
   color: #222;
@@ -29,9 +27,8 @@ body {
   margin-bottom: 20px;
 }
 
-/* Section styling */
 section {
-  background: #b8b8b8;   
+  background: #b8b8b8;
   border: 1px solid #999;
   padding: 15px;
   width: 80%;
@@ -50,7 +47,6 @@ h3 {
   font-size: 18px;
 }
 
-/* Project Grid */
 .project-grid {
   display: flex;
   justify-content: center;
@@ -60,7 +56,7 @@ h3 {
 }
 
 .project-card {
-  background: #b8b8b8;  
+  background: #b8b8b8;
   border: 1px solid #999;
   width: 300px;
   padding: 15px;
@@ -68,14 +64,12 @@ h3 {
   border-radius: 6px;
 }
 
-/* Images */
 .project-card img {
   width: 100%;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-/* Project links */
 .project-card a {
   color: #73000A;
   text-decoration: none;
@@ -85,7 +79,6 @@ h3 {
 .project-card a:hover {
   text-decoration: underline;
 }
-
 
 .repo-list {
   text-align: left !important;
@@ -97,9 +90,9 @@ h3 {
   text-align: left !important;
   list-style-type: disc;
 }
- 
+
 .repo-list a {
-  color: #73000A !important;  /* burgundy */
+  color: #73000A !important;  
   font-weight: bold;
   text-decoration: none;
 }
